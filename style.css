@@ -1,0 +1,77 @@
+body {
+    margin: 0%;
+    background-color: #fff;
+    text-align: center;
+}
+header {
+    color: rgb(122, 23, 23);
+}
+header h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.container {
+    background-color: rgb(122, 23, 23);
+    color: #fff;
+    text-align: center;
+    padding: 1px 10px;
+}
+.text {
+    color: rgb(122, 23, 23);
+    text-align: center;
+    font-size: 25px;
+}
+.botton {
+    background-color:rgb(122, 23, 23);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    position:relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.botton:hover {
+    background-color: #a33838;
+}
+
+.descripcion {
+    color: rgb(122, 23, 23);
+    font-size: 30px;
+}
+.mso {
+    color: rgb(122, 23, 23);
+    font-size: 20px;
+}
+
+div {
+    color: rgb(122, 23, 23);
+    font-size: 20px;
+}
+footer {
+    background-color: rgb(122, 23, 23);
+    padding: 3rem;
+    color: #fff;
+}
+.inicio {
+    background-color:rgb(122, 23, 23);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    position:relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.inicio:hover {
+    background-color: #4a1313;
+}
