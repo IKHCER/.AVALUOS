@@ -1,3 +1,44 @@
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
 body {
     margin: 0%;
     background-color: #fff;
@@ -74,4 +115,15 @@ footer {
 }
 .inicio:hover {
     background-color: #4a1313;
+}
+.imagen {
+    width: 350;
+    height: 250;
+    margin: 3%;
+
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+
 }
